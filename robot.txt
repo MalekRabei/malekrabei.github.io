@@ -1,0 +1,9 @@
+# bloque l'indexation des images pour les robots
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /images/
+Allow: /
+
+Sitemap : http://malek-rabei.000webhostapp.com/sitemap.xml
